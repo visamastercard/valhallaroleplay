@@ -1,0 +1,19 @@
+RewriteEngine on
+
+RewriteRule ^page/([^/\.]+)/?$ index.php?page=$1 [L]
+
+RewriteRule ^ucp/([^/\.]+)/([^/\.]+)/([^/\.]+)/?$ index.php?ucp=$1&param2=$2&param3=$3 [L]
+RewriteRule ^ucp/([^/\.]+)/([^/\.]+)/?$ index.php?ucp=$1&param2=$2 [L]
+RewriteRule ^ucp/([^/\.]+)/?$ index.php?ucp=$1 [L]
+
+RewriteRule ^fairplay/([^/\.]+)/?$ index.php?fairplay=$1 [L]
+
+RewriteRule ^ticketcenter/([^/\.]+)/?$ index.php?tc=$1 [L]
+RewriteRule ^ticketcenter/([^/\.]+)/([^/\.]+)/?$ index.php?tc=$1&view=$2 [L]
+
+RewriteRule ^admin/([^/\.]+)/?$ index.php?admin=$1 [L]
+RewriteRule ^admin/([^/\.]+)/([^/\.]+)/?$ index.php?admin=$1&action=$2 [L]
+
+order allow,deny
+deny from 79.215.
+allow from all

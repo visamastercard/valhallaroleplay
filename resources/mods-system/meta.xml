@@ -1,0 +1,18 @@
+<meta>
+	<info author="vG MTA Scripting Team" type="script" description="mods System"/>
+
+	<script src="c_mods_system.lua" type="client"/>
+	<script src="c_show_fps.lua" type="client"/>
+	
+	<!--<file src="ls/lee_stripclub.txd"/>
+	<file src="ls/lee_stripclub1.txd"/>-->
+	<file src="ls/bustopm.txd"/>
+	<file src="ls/eastbeach3c_lae2.txd"/>
+	<!--<file src="mods/skins/9/wfyst.dff"/>-->
+	<file src="mods/skins/9/wfyst.txd"/>
+	<!-- <file src="ls/gangblok1_lae2.txd"/> -->
+	
+	<!--<file src="tags/tags_laazteca.txd"/>
+	<file src="tags/tags_larifa.txd"/>
+	<file src="tags/tags_larollin.txd"/>-->
+</meta>
